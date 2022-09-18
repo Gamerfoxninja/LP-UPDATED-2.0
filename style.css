@@ -1,0 +1,312 @@
+/*CABEÇALHO*/
+header{
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    background-color:rgb(0, 0, 0);
+    width:auto;
+}
+
+.logo{
+    width:15%;
+    left:auto;
+    margin-left:70px;
+    padding-left:15px;
+}
+
+.cabecalho{
+    margin:0 auto;
+}
+
+b{
+    font-weight:bolder;
+}
+
+/*ITENS DO CABEÇALHO*/
+
+nav{
+    width: auto;
+    position:absolute;
+    top:24px;
+    right:150px;
+}
+
+nav ul{
+    
+
+}
+
+.home{
+    margin-right:5px;
+}
+
+nav li{
+    display:inline;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    transition:0.2s all;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border:hidden;
+    padding:0 0 0 0;
+    font-style:bold;
+}
+
+nav a:hover{
+    border-style:solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    transform:scale(0,10)
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/*MEIO*/
+.meio{
+    display: inline-block;
+    position: relative;
+    width:100%;
+
+}
+.imagem_do_meio{
+    position: relative;
+    width:100%;
+}
+
+.meiotextos{
+    z-index: 100;
+    position:absolute;
+    vertical-align: top;
+    vertical-align: top;
+    background:white;
+    border-radius:10px;
+
+}
+
+.texto{
+    width:100%;
+    font-weight:300;
+    color:rgb(0, 0, 0);
+    font-size:60px;
+    padding:30px;
+    padding-bottom: 10px;
+}
+
+.texto2{
+    color:rgb(0, 0, 0);
+    font-size:16px;
+    padding:30px;
+    padding-left:30px;
+}
+
+.imagem2{
+    border-radius: 5%;
+    width:100%;
+}
+
+/*A GENTE NÃO PARA DE CRESCER <<<<!SECTION 2!>>>>*/
+.caixa_s2{
+    display:inline-flex;
+}
+
+.section_dois img{
+    position:relative;
+    width:100%;
+    left: 950px;
+    padding-top:180px;
+    padding-bottom:160px;
+}
+
+.textcaixa_s2{
+    display: inline-block;
+    position: relative;
+
+}
+
+.caixa_s2 h1{
+    position:absolute;
+    vertical-align: top;
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+.caixadetexto{
+    position: absolute;
+    display: inline;
+    padding-top: 250px;
+
+}
+
+.caixa_s2 p{
+    letter-spacing: 2.5px;
+    padding-left:370px;
+    width:100%;
+}
+
+
+.textinho{
+    letter-spacing: 2.5px;
+    text-align:right;
+    text-align:justify;
+    padding-left:370px;
+    width:100%;
+}
+
+/*PORQUE ESCOLHER A RAZOR??*/
+.section_tres{
+}
+
+.caixa_s3{
+    display: flex;
+}
+
+.ico_s3{
+    vertical-align: middle;
+    width:5%;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+.virtuos{
+    position:relative;
+    width:15%;
+    left: 980px;
+    padding-top:160px;
+    padding-bottom:160px;
+}
+
+.textocaixa_s3{
+    position: relative;
+    display: inline-block;
+}
+
+.caixa_s3 h1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 300;
+    padding:0px;
+    padding-top: 300px;
+    padding-left:30px
+}
+
+.caixa_s3 p{
+    position: absolute;
+    margin-left: 400px;
+    letter-spacing: 2.5px;
+    padding-top: 300px;
+}
+
+/*SLIDER*/
+
+
+
+/*MISSAO,VISAO E VALORES*/
+
+
+.lista_metas{
+    margin:0px;
+    letter-spacing: 2.5px;
+
+}
+
+.metas ul{
+    margin:0px;
+}
+.metas li{
+    display:inline-block;
+    margin-left:30px;
+    margin-left:100px;
+    margin-top:30px;
+    margin-bottom:30px;
+    vertical-align:top;
+    font-size: 30px;
+}
+
+.metas h1{
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:5px;
+    font-weight:bolder;
+}
+    
+.metas p{
+    text-align:justify;
+    padding-top:15px;
+    font-size:13px;
+
+}
+
+.metas img{
+    width: 300px;
+    padding:10px;
+}
+
+
+
+/*RODAPÉ*/
+
+.rodape{
+    display:flex;
+    vertical-align: middle;
+}
+
+.texto_rodape{
+    letter-spacing: 2px;
+    margin-left:75px;
+    font-weight:inherit;
+
+}
+
+.texto_rodape h1{
+
+    margin-top:80px;
+    font-weight:bold;
+    letter-spacing: 2px;
+}
+
+.texto_rodape2{
+    letter-spacing: 2px;
+    margin-left:30px;
+}
+
+.texto_rodape2 h1{
+    margin-top:80px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.texto_rodape3{
+    letter-spacing: 2px;
+    margin-left:30px;
+    margin-top:80px;
+    color:#7116f2;
+    padding-bottom:10px;
+    padding-right:20px;
+}
+
+.linkrodape{
+    width:5%;
+}
+
+.razorltda{
+    margin:30px;
+    text-align:center;
+}
+
+/*LINHA ENTRE AS SECTIONS*/
+
+#linhazinha{
+    margin:0px;
+    padding:auto;
+}
